@@ -1,0 +1,63 @@
+header{
+    text-align: right;
+    margin: 0 .75em;
+    font-size:50px;
+    font-weight:100;
+    position:relative;
+}
+header nav a{
+    color: rgb(115, 12, 146);
+    font-size: 25px;
+    right: 0px; 
+    margin-right: auto;
+    border: 1px solid rgb(211, 164, 255)ed;
+    box-shadow: 5px -5px 3px  rgb(175, 137, 211);
+    
+}
+img{
+    border-radius: 50%;
+    box-shadow: 5px -5px 3px  rgb(175, 137, 211);
+}
+.sidenav{
+    position: absolute;
+    display: block;
+    margin-left: 40%;
+    margin-right: 30%}
+
+
+main{
+    
+    display:block 
+}
+main h1, h2{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px -5px 3px rgb(175, 137, 211);
+    font-family: 'Literata', serif;
+}
+
+.one{
+    display: block;
+    margin-top: 400px;
+    margin-bottom: 0px;
+}
+body{
+    color: rgb(115, 12, 146);
+    margin: 0;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+p{
+    text-align: justify;
+    border: 1px solid rgb(211, 164, 255)ed;
+    box-shadow: 5px -5px 3px  rgb(175, 137, 211);
+    padding: 2px;
+    margin: 100px;
+    margin-top: 15px;
+    font-style: normal;
+    font-size: 24px;
+    width: 100px 70px;
+    height: 200px;
+    line-height: 25px;
+    justify-content: center;
+   
+}
