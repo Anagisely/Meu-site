@@ -5,15 +5,29 @@ header{
     font-weight:100;
     position:relative;
 }
-header nav a{
+header nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header nav li{
+    display:inline-block;
+}
+header nav li a{
     color: rgb(115, 12, 146);
     font-size: 25px;
     right: 0px; 
     margin-right: auto;
-    border: 1px solid rgb(211, 164, 255)ed;
-    box-shadow: 5px -5px 3px  rgb(175, 137, 211);
-    
+    list-style: none;
+    text-decoration: none;
 }
+.menu{
+    border:1px solid  rgb(115, 12, 146);
+    padding: 5px;
+    box-shadow: 5px -5px 3px  rgb(175, 137, 211);
+    border-radius: 8%;
+}
+
 img{
     border-radius: 50%;
     box-shadow: 5px -5px 3px  rgb(175, 137, 211);
@@ -60,4 +74,7 @@ p{
     line-height: 25px;
     justify-content: center;
    
+}footer{
+    color: rgb(115, 12, 146);
+    text-shadow: 5px -5px 3px rgb(175, 137, 211);
 }

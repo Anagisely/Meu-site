@@ -1,28 +1,57 @@
+header nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+header nav li{
+    display:inline-block;
+}
+header nav li a{
+    color: rgb(115, 12, 146);
+    font-size: 25px;
+    right: 0px; 
+    margin-right: auto;
+    list-style: none;
+    text-decoration: none;
+}
+.menu{
+    border:1px solid  rgb(115, 12, 146);
+    padding: 5px;
+    box-shadow: 5px -5px 3px  rgb(175, 137, 211);
+    border-radius: 8%;
+}
+header{
+    margin-top:20px;
+}
 .sidnav{
+    
     width:45% ;
     background-color: linear-gradient(120deg, #f68084 100%,  #a6c0fe 0%);
-    margin-left: 60%;
+    margin-left: 50%;
     text-align: left;
     display: inline-block;
-    color: white;
-    border: solid rgb(68, 4, 4) 2px;
-    box-shadow: 5px -9px 3px rgb(68, 4, 4);
-    
+    color: rgb(115, 12, 146);
+    border: 1px solid rgb(211, 164, 255)ed;
+    box-shadow: 5px -5px 3px  rgb(175, 137, 211);
 }
 
 .sidnav a{
     padding-top: 1px;
-    color: white;
+    color: rgb(115, 12, 146);
    
 }
 img{
-    border: solid rgb(68, 4, 4) 2px;
-    box-shadow: 5px -9px 3px rgb(68, 4, 4);
+    border: 1px solid rgb(211, 164, 255)ed;
+    box-shadow: 5px -5px 3px  rgb(175, 137, 211);
     border-radius: 50%;
 }
 body{
+    margin-left: 200px;
+    align-items: center;
+    align-content: center;
     background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
-    /*background-color: rgb(132, 62, 202);*/
+    background-color: rgb(132, 62, 202);
     text-align: center;
     font-size: 24px;
 }
@@ -31,19 +60,21 @@ body main {
     text-align: left;
     margin-right: 60%;
     margin-top: -432px;
-    color: white;
-    border: solid rgb(68, 4, 4) 2px;
-    box-shadow: 5px -9px 3px rgb(68, 4, 4);
+    color: rgb(115, 12, 146);
+    border: 1px solid rgb(211, 164, 255)ed;
+    box-shadow: 5px -5px 3px  rgb(175, 137, 211);
    
 }
-body main div{
-    display: inline-block;
+body {
+    display:inline-block;
 }
 h1{
     font-family: 'Quicksand', sans-serif;
+    color: rgb(115, 12, 146);
 }
 h2{
     font-family: 'Dancing Script', cursive; 
+    color: rgb(115, 12, 146);
 }
 h3{
     font-family: 'Literata', serif;
@@ -52,6 +83,6 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 footer{
-    color: white;
-    text-shadow: 5px -9px 3px rgb(255, 242, 242);
+    color: rgb(115, 12, 146);
+    text-shadow: 5px -5px 3px rgb(255, 242, 242);
 }
