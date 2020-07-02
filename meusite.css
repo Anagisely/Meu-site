@@ -21,6 +21,10 @@ header nav li a{
     list-style: none;
     text-decoration: none;
 }
+header nav li a:hover{
+    background-color:  rgb(115, 12, 146);
+    color: white;
+}
 .menu{
     border:1px solid  rgb(115, 12, 146);
     padding: 5px;
@@ -75,6 +79,7 @@ p{
     justify-content: center;
    
 }footer{
+    text-align: center;
     color: rgb(115, 12, 146);
     text-shadow: 5px -5px 3px rgb(175, 137, 211);
 }
