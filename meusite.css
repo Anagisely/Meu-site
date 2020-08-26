@@ -43,7 +43,6 @@ img{
 }
 .sidenav{
     display: block;
-    width: 250px;
     padding: auto;
     margin:auto;
     text-align: center;
@@ -122,12 +121,20 @@ p{
     }
     .one{
         flex-basis: auto;
-        margin-top: 300px;
+        margin-top: 100px;
         margin-bottom: 0px;
         
     }
     p{
         padding-left:6%;
         font-size: 15px;
+    }
+    .sidenav{
+        padding: auto;
+        margin:auto;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        top:50px;
     }
 }
