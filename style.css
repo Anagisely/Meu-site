@@ -58,12 +58,13 @@ header nav li a:hover{
   
 }
 h1{
+    text-align: center;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     
 }
 h2{
-     
+     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
 }
@@ -72,7 +73,7 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row-reverse;
-    text-align: center;
+    text-align: left;
     position: relative;
     top:25px;
     bottom: 0px;
@@ -87,10 +88,14 @@ main a{
     text-decoration: none;
     color: black;
     
+    
 }
 main a:hover{
     
     color: rgb(255, 255, 255);
+}
+main h3{
+    text-align: center;
 }
 @media (max-width:600px){
     main{
