@@ -34,7 +34,7 @@ header nav li a:hover{
     box-shadow:none;
 }
 
-img{
+.sidenav img{
     border-radius: 50%;
     box-shadow: 2px 0px 6px  rgb(233, 233, 233);
     width: 300px;
@@ -43,8 +43,7 @@ img{
 }
 .sidenav{
     display: block;
-    padding: auto;
-    margin:auto;
+    
     text-align: center;
     justify-content: center;
     position: relative;
@@ -108,7 +107,7 @@ p{
     body{
         text-align: center;
     }
-    img{
+    .sidenav img{
         width: 200px;
         height: 200px;
         margin-top:40px;
