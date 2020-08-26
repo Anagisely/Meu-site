@@ -1,3 +1,8 @@
+body{
+    color:black;
+    background-image: linear-gradient(120deg,#00ccff 0%, #33ccff 100%);
+    text-shadow:2px 0px 6px  rgb(233, 233, 233) ;
+}
 header{
     text-align: right;
     margin: 0 .75em;
@@ -14,25 +19,30 @@ header nav li{
     display:inline-block;
 }
 header nav li a{
-    color: rgb(115, 12, 146);
+    color:black;
     font-size: 25px;
     right: 0px; 
     margin-right: auto;
     list-style: none;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header nav li a:hover{
-    background-color:  rgb(115, 12, 146);
+    
     color: white;
 }
+.menu:hover{
+    box-shadow:none;
+}
 .menu{
-    border:1px solid  rgb(115, 12, 146);
     padding: 5px;
-    box-shadow: 5px -5px 3px  rgb(175, 137, 211);
+    box-shadow: 2px 0px 6px  rgb(233, 233, 233);
     border-radius: 8%;
 }
+
+
 .center{
-    color: rgb(115, 12, 146);
+    
     display: block;
     width: 250px;
     padding: auto;
@@ -44,21 +54,24 @@ header nav li a:hover{
    
 }
 .center img{
-    box-shadow: 5px -5px 3px  rgb(175, 137, 211);
+    box-shadow: 2px 0px 6px  rgb(233, 233, 233);
     border-radius: 50%;
+    width: 300px;
+    height: 300px;
+  
 }
 h1{
     font-size: 30px;
-    font-family: 'Quicksand', sans-serif;
-    color: rgb(115, 12, 146);
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 h2{
-    font-family: 'Dancing Script', cursive; 
-    color: rgb(115, 12, 146);
+     
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
 }
 main{
-    color: rgb(115, 12, 146);
+    
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row-reverse;
@@ -75,41 +88,45 @@ main{
 }
 main a{
     text-decoration: none;
-    color: rgb(115, 12, 146);
+    color: black;
+    
 }
 main a:hover{
-    background-color:  rgb(115, 12, 146);
-    color: white;
+    
+    color: rgb(255, 255, 255);
 }
 @media (max-width:600px){
-   main{
+    main{
+        font-size: 20px;
         flex-direction:column ;
         justify-content: center;
         }
     main a{
         flex-wrap: wrap;
     }
+    .center img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-top:40px;
+    }
+    
 }
 .left{
     margin: 10px;
     padding: 30px;
     width: 40%;
-    box-shadow: 5px -5px 3px  rgb(175, 137, 211);
+    box-shadow: 3px -1px 5px  rgb(102, 102, 87);
 }
 .rigth{
     margin: 10px;
     padding: 30px;
     width: 40%;
-    box-shadow: -5px -5px 3px  rgb(175, 137, 211);   
+    box-shadow: 3px -1px 5px  rgb(102, 102, 87);  
 }
 
-body{
-    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
-    
-}
 footer{
     margin-top: 20px;
     text-align: center;
-    color: rgb(115, 12, 146);
-    text-shadow: 5px -5px 3px rgb(175, 137, 211);
+    text-shadow: 2px 0px 6px  rgb(233, 233, 233);
 }
